@@ -28,7 +28,7 @@ function LoginArea() {
           rules={[
             {
               required: true,
-              message: "Please input your Username!",
+              message: "Please input your email!",
             },
           ]}
         >
