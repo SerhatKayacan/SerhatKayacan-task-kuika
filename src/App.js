@@ -1,25 +1,19 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import { Row, Col } from "antd";
+import MainPage from "./components/MainPage/MainPage";
+import LoginArea from "./components/LoginArea/LoginArea";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Row>
+      <Col xs={24} sm={24} md={24} lg={16}>
+        <MainPage />
+      </Col>
+      <Col xs={24} sm={24} md={24} lg={8}>
+        <LoginArea />
+      </Col>
+    </Row>
   );
 }
 
