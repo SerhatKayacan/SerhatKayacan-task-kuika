@@ -1,0 +1,24 @@
+.login-container {
+  width: 80%;
+  margin: auto;
+  margin-top: 110px;
+}
+.login-container .span1 {
+  font-weight: 600;
+  font-size: 20px;
+}
+.login-container .span2 {
+  float: right;
+  font-weight: 450;
+}
+.login-container .login-form {
+  margin-top: 55px;
+}
+.forgot-password,
+.sign-in {
+  width: 50%;
+  float: left;
+}
+.sign-in button {
+  float: right;
+}

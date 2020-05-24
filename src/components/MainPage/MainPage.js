@@ -5,7 +5,7 @@ import "./MainPage.css";
 function MainPage() {
   return (
     <div className="MainPage">
-      <div className="container">
+      <div className="MainPage-container">
         <ul>
           <li>
             <a href="/#">Home</a>

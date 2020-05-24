@@ -1,7 +1,7 @@
 .MainPage {
   background-color: #f7f7f7;
 }
-.container {
+.MainPage-container {
   width: 90%;
   margin: auto;
   padding-top: 20px;
